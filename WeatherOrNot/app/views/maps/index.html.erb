@@ -2,6 +2,18 @@
 <h1> Welcome to WeatherOrNot</h1>
 <h2> Start your travel route by setting a starting location and ending location</h2>
 
+<div id="form">
+<%= form_for '/' do %>
+    <%= label_tag 'start' %>
+    <%= text_field_tag 'start' %>
+
+    <%= label_tag 'end' %>
+    <%= text_field_tag 'end' %>
+
+    <%= submit_tag 'Route' %>
+<% end %>
+</div>
+
 <div id="map">
 </div>
 

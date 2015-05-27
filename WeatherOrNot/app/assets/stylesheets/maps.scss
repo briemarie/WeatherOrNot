@@ -2,12 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#map {
-  margin: auto;
-  width: 1000px;
-  height: 700px;
-}
-
 h1 {
   text-align: center;
 }
@@ -15,3 +9,16 @@ h1 {
 h2 {
   text-align: center;
 }
+
+#form {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#map {
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+}
+
+
